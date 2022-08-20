@@ -110,8 +110,7 @@ class Game extends Component {
               this.setState({ descendingList: !this.state.descendingList })
             }
           >
-            {" "}
-            {this.state.descendingList ? "descending" : "ascending"}{" "}
+            {this.state.descendingList ? "descending" : "ascending"}
           </button>
 
           <ol>{moves}</ol>

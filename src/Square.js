@@ -3,7 +3,7 @@ function Square(props) {
     <button
       className={props.winSquare ? "win-square" : "square"}
       onClick={props.onClick}
-   >
+    >
       {props.value}
     </button>
   );
